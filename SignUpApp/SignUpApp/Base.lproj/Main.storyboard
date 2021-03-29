@@ -36,6 +36,7 @@
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="영문 소문자, 숫자, 특수기호(_,-), 5~20자" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LHX-iz-0vK">
                                                 <rect key="frame" x="0.0" y="26.666666666666657" width="330" height="36"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="36" id="1S5-MO-FiT"/>
                                                 </constraints>
@@ -58,6 +59,7 @@
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="영문 대/소문자, 숫자, 특수문자(!@#$%), 8~16자" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4yZ-7a-JD6">
                                                 <rect key="frame" x="0.0" y="26.666666666666686" width="330" height="36"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="36" id="iU8-eK-YPH"/>
                                                 </constraints>
@@ -80,6 +82,7 @@
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kJ2-Rd-imm">
                                                 <rect key="frame" x="0.0" y="26.666666666666686" width="330" height="36"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="36" id="88v-n6-RPU"/>
                                                 </constraints>
@@ -102,6 +105,7 @@
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="C9a-n2-MRZ">
                                                 <rect key="frame" x="0.0" y="26.666666666666686" width="330" height="36"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="36" id="Gkn-Pg-mqF"/>
                                                 </constraints>
@@ -170,6 +174,7 @@
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bjG-O4-G4A">
                                                 <rect key="frame" x="0.0" y="26.666666666666657" width="330" height="36"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="36" id="phF-tl-6mk"/>
                                                 </constraints>
@@ -216,6 +221,7 @@
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sR2-te-etZ">
                                                 <rect key="frame" x="0.0" y="26.666666666666686" width="330" height="36"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="36" id="vrl-QZ-YqP"/>
                                                 </constraints>
@@ -238,6 +244,7 @@
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="- 없이 입력해주세요. 예) 01012341234" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WHP-d7-c3P">
                                                 <rect key="frame" x="0.0" y="26.666666666666686" width="330" height="36"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="36" id="RF3-lA-7b4"/>
                                                 </constraints>
@@ -277,8 +284,47 @@
             </objects>
             <point key="canvasLocation" x="902" y="79"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="qJP-wE-wnc">
+            <objects>
+                <viewController id="vzT-Fd-Ywz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Xsu-Zt-Abr">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="개인정보 수집 및 이용에 대한 안내" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c2r-09-FrK">
+                                <rect key="frame" x="76" y="74" width="238" height="22"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IZh-SL-yHl">
+                                <rect key="frame" x="30" y="126" width="330" height="459"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="JTd-pf-8RE"/>
+                        <color key="backgroundColor" systemColor="systemGray2Color"/>
+                        <constraints>
+                            <constraint firstItem="IZh-SL-yHl" firstAttribute="leading" secondItem="JTd-pf-8RE" secondAttribute="leading" constant="30" id="9wG-Ns-Cmo"/>
+                            <constraint firstItem="c2r-09-FrK" firstAttribute="top" secondItem="JTd-pf-8RE" secondAttribute="top" constant="30" id="Kke-8v-RAe"/>
+                            <constraint firstItem="c2r-09-FrK" firstAttribute="centerX" secondItem="Xsu-Zt-Abr" secondAttribute="centerX" id="XDH-96-Z2a"/>
+                            <constraint firstItem="JTd-pf-8RE" firstAttribute="trailing" secondItem="IZh-SL-yHl" secondAttribute="trailing" constant="30" id="fX9-aE-t46"/>
+                            <constraint firstItem="IZh-SL-yHl" firstAttribute="top" secondItem="c2r-09-FrK" secondAttribute="bottom" constant="30" id="ioB-MV-JaX"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q0o-O1-njL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1747.6923076923076" y="78.909952606635073"/>
+        </scene>
     </scenes>
     <resources>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemGray5Color">
             <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
