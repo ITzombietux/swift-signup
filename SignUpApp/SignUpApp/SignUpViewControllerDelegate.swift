@@ -18,6 +18,10 @@ class TextFieldDelegate: NSObject, UITextFieldDelegate {
         textField.layer.borderWidth = 1
         textField.layer.borderColor = UIColor.systemBlue.cgColor
     }
+    
+    func textFieldDidChangeSelection(_ textField: UITextField) {
+        guard let index = self.signUpViewController?.signUpTextFields.firstIndex(of: textField) else { return }
+    }
 
     func textFieldDidEndEditing(_ textField: UITextField, reason: UITextField.DidEndEditingReason) {
         textField.layer.borderColor = UIColor.black.cgColor
